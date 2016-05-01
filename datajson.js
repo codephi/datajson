@@ -16,10 +16,6 @@ var DataJson = function () {
 
         errorLog = true,
 
-        setErrorLog = function (error) {
-            errorLog = error;
-        },
-
         logError = function(error){
             if(errorLog){
                 console.error(error)
@@ -362,10 +358,13 @@ var DataJson = function () {
 
     this.table = getTable;
 
-    this.setErrorLog = setErrorLog;
+    this.setErrorLog = function (error) {
+        errorLog = error;
+        return this;
+    };
 
     this.path = function (_defaultPath) {
-        defaultPath = _defaultPath + path.sep
+        defaultPath = _defaultPath + path.sep;
         return this;
     };
 
