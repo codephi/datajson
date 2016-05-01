@@ -1,0 +1,36 @@
+{
+  "name": "datajson",
+  "version": "1.0.0",
+  "description": "Low-Level Data Manager in json file",
+  "main": "datajson.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilippeAssis/datafiles.git"
+  },
+  "keywords": [
+    "db",
+    "json",
+    "database",
+    "data",
+    "files",
+    "write",
+    "table",
+    "row",
+    "find",
+    "like"
+  ],
+  "author": "Philippe Assis <assis@philippeassis.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhilippeAssis/datafiles/issues"
+  },
+  "homepage": "https://github.com/PhilippeAssis/datafiles#readme",
+  "dependencies": {
+    "dateformat": "^1.0.12",
+    "fs": "0.0.2",
+    "merge": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "recursive-readdir": "^2.0.0"
+  }
+}
