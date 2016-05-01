@@ -8,7 +8,6 @@ var DataJson = function () {
         readdir = require('recursive-readdir');
 
 
-
     var now = function () {
             return dateFormat(new Date(), "yyyy-mm-ddThh:MM:ss")
         },
@@ -17,13 +16,18 @@ var DataJson = function () {
 
         errorLog = true,
 
-        setErrorLog = function(error){
-            errorLog = errorLog;
+        setErrorLog = function (error) {
+            errorLog = error;
+        },
+
+        logError = function(error){
+            if(errorLog){
+                console.error(error)
+            }
         },
 
         fixPath = function (file, ext) {
-            if (ext && !path.parse(file)
-                    .ext)
+            if (ext && !path.parse(file).ext)
                 file += '.json';
 
             return path.resolve(defaultPath, file);
@@ -72,7 +76,7 @@ var DataJson = function () {
                     JSON.stringify(data),
                     function (err) {
                         if (err) {
-                            console.error(err);
+                            logError(err);
                             return ( _callback ) ? _callback(false) : '';
                         }
 
@@ -86,7 +90,7 @@ var DataJson = function () {
             if (filePath && !fs.existsSync(filePath)) {
                 mkdirp(filePath, function (err) {
                     if (err) {
-                        console.error(err);
+                        logError(err);
                     }
                     else {
                         fs.chmod(filePath, mode, function () {
@@ -105,13 +109,13 @@ var DataJson = function () {
             file = fixPath(file, true);
 
             if (!fs.existsSync(file)) {
-                console.error("File not found");
+                logError("File not found");
                 return _callback(null)
             }
 
             fs.readFile(file, function (err, data) {
                 if (err) {
-                    console.error(err);
+                    logError(err);
 
                     if (_callback)
                         _callback(null);
@@ -125,7 +129,7 @@ var DataJson = function () {
         listAll = function (_callback) {
             readdir(defaultPath, function (err, table) {
                 if (err) {
-                    console.error(err)
+                    logError(err)
                     _callback(null)
                 } else
                     _callback(returnTable(table))
@@ -185,7 +189,7 @@ var DataJson = function () {
             if (fs.existsSync(file))
                 fs.unlink(file, function (err) {
                     if (err)
-                        console.error(err);
+                        logError(err);
 
                     if (_callback)
                         _callback(err ? false : true);

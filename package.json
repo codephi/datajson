@@ -1,11 +1,11 @@
 {
   "name": "datajson",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Low-Level Data Manager in json file",
   "main": "datajson.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PhilippeAssis/datafiles.git"
+    "url": "git+https://github.com/PhilippeAssis/datajson.git"
   },
   "keywords": [
     "db",
