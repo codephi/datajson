@@ -16,8 +16,8 @@ var DataJson = function () {
 
         errorLog = true,
 
-        logError = function(error){
-            if(errorLog){
+        logError = function (error) {
+            if (errorLog) {
                 console.error(error)
             }
         },
@@ -44,16 +44,19 @@ var DataJson = function () {
 
         lastId = function (file, _callback) {
             read(file, function (table) {
-                _callback(table ? table[0].lastid : null);
+                if (_callback)
+                    _callback(table ? table[0].lastid : null);
             })
         },
 
         count = function (file, _callback) {
             read(file, function (table) {
-                if (!table)
-                    _callback(0);
-                else
-                    _callback(table.length);
+                if (_callback) {
+                    if (!table)
+                        _callback(0);
+                    else
+                        _callback(table.length);
+                }
             })
         },
 
@@ -106,7 +109,8 @@ var DataJson = function () {
 
             if (!fs.existsSync(file)) {
                 logError("File not found");
-                return _callback(null)
+                if (_callback)
+                    return _callback(null)
             }
 
             fs.readFile(file, function (err, data) {
@@ -171,10 +175,12 @@ var DataJson = function () {
                 table[key] = merge.recursive(true, table[key], data);
 
                 write(file, table, function (success) {
-                    if (success)
-                        _callback(table[key])
-                    else
-                        _callback(null)
+                    if (_callback) {
+                        if (success)
+                            _callback(table[key])
+                        else
+                            _callback(null)
+                    }
                 });
             })
         },
@@ -210,7 +216,7 @@ var DataJson = function () {
 
                 if (find)
                     write(file, newTable, _callback);
-                else
+                else if (_callback)
                     _callback(true)
             })
         },
@@ -228,7 +234,8 @@ var DataJson = function () {
                 if (typeof colOrCallback == 'function')
                     return colOrCallback(table[key]);
 
-                _callback(table[id][colOrCallback]);
+                if (_callback)
+                    _callback(table[id][colOrCallback]);
             })
         },
 
@@ -266,7 +273,8 @@ var DataJson = function () {
                     }
                 }
 
-                _callback(returnTable(results))
+                if (_callback)
+                    _callback(returnTable(results))
             })
         },
 
@@ -291,20 +299,20 @@ var DataJson = function () {
                     }
                 }
 
-
-                _callback(returnTable(results))
+                if (_callback)
+                    _callback(returnTable(results))
             })
         },
 
         getTable = function (table, _callback) {
             read(table, function (table) {
-                _callback(returnTable(table))
+                if (_callback)
+                    _callback(returnTable(table))
             })
         },
 
         returnTable = function (table) {
-            var newTable = []
-
+            var newTable = [];
 
             if (!table || !table[0])
                 return null;
@@ -324,7 +332,8 @@ var DataJson = function () {
             read(file, function (table) {
                 var key = getKey(table, id);
 
-                _callback(key ? table[key] : null);
+                if (_callback)
+                    _callback(key ? table[key] : null);
             })
         }
 
