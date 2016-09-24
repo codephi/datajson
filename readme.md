@@ -15,7 +15,7 @@ Its structure is inspired by the Mongoose ODM. Using similar resources to handle
   var model = datajson.model; // all model load
 ```
 
-The setting options are Json Date:
+The setting options are Datajson:
 
 - **path** : Path where the files will be saved, default: dirname
 - **indenting** : If not required indentation for the writing of files, null, otherwise set to decimal values or '\t'. These data will be passed as the third parameter of [JSON.stringify()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
