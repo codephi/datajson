@@ -1,0 +1,718 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+"	node_modules/parse-json/vendor/parse.js	/^  '\\'': '\\'',$/;"	p	class:isDecDigit.unescapeMap
+$em	src/datajson.js	/^            },$/;"	m
+$eq	src/datajson.js	/^        operators = {$/;"	m
+$gt	src/datajson.js	/^            },$/;"	m
+$gte	src/datajson.js	/^            },$/;"	m
+$lt	src/datajson.js	/^            },$/;"	m
+$lte	src/datajson.js	/^            },$/;"	m
+$nin	src/datajson.js	/^            },$/;"	m
+$not	src/datajson.js	/^            },$/;"	m
+'	node_modules/parse-json/vendor/parse.js	/^var unescapeMap = {$/;"	p	class:isDecDigit.unescapeMap
+/	node_modules/parse-json/vendor/parse.js	/^  'v' : '\\v',$/;"	p	class:isDecDigit.unescapeMap
+ANY	node_modules/semver/semver.js	/^var ANY = {};$/;"	v
+BUILD	node_modules/semver/semver.js	/^var BUILD = R++;$/;"	v
+BUILDIDENTIFIER	node_modules/semver/semver.js	/^var BUILDIDENTIFIER = R++;$/;"	v
+CARET	node_modules/semver/semver.js	/^var CARET = R++;$/;"	v
+CARETLOOSE	node_modules/semver/semver.js	/^var CARETLOOSE = R++;$/;"	v
+CARETTRIM	node_modules/semver/semver.js	/^var CARETTRIM = R++;$/;"	v
+COMPARATOR	node_modules/semver/semver.js	/^var COMPARATOR = R++;$/;"	v
+COMPARATORLOOSE	node_modules/semver/semver.js	/^var COMPARATORLOOSE = R++;$/;"	v
+COMPARATORTRIM	node_modules/semver/semver.js	/^var COMPARATORTRIM = R++;$/;"	v
+CORRECT	node_modules/spdx-correct/index.js	/^var CORRECT = 1;$/;"	v
+Comparator	node_modules/semver/semver.js	/^function Comparator(comp, loose) {$/;"	c
+Entity	src/model.js	/^    function Entity(data) {$/;"	f	function:cleanCache
+ErrorEXError	node_modules/error-ex/index.js	/^	var errorExError = function ErrorEXError(message) {$/;"	f	function:errorEx
+FULFILLED	node_modules/pinkie/index.js	/^var FULFILLED = 'fulfilled';$/;"	v
+FULL	node_modules/semver/semver.js	/^var FULL = R++;$/;"	v
+FULLPLAIN	node_modules/semver/semver.js	/^var FULLPLAIN = 'v?' + src[MAINVERSION] +$/;"	v
+GTLT	node_modules/semver/semver.js	/^var GTLT = R++;$/;"	v
+GitHost	node_modules/hosted-git-info/git-host.js	/^}$/;"	c
+HYPHENRANGE	node_modules/semver/semver.js	/^var HYPHENRANGE = R++;$/;"	v
+HYPHENRANGELOOSE	node_modules/semver/semver.js	/^var HYPHENRANGELOOSE = R++;$/;"	v
+IDENTIFIER	node_modules/spdx-correct/index.js	/^var IDENTIFIER = 1;$/;"	v
+JSONError	node_modules/parse-json/index.js	/^var JSONError = errorEx('JSONError', {$/;"	v
+LONECARET	node_modules/semver/semver.js	/^var LONECARET = R++;$/;"	v
+LONETILDE	node_modules/semver/semver.js	/^var LONETILDE = R++;$/;"	v
+LOOSE	node_modules/semver/semver.js	/^var LOOSE = R++;$/;"	v
+LOOSEPLAIN	node_modules/semver/semver.js	/^var LOOSEPLAIN = '[v=\\\\s]*' + src[MAINVERSIONLOOSE] +$/;"	v
+MAINVERSION	node_modules/semver/semver.js	/^var MAINVERSION = R++;$/;"	v
+MAINVERSIONLOOSE	node_modules/semver/semver.js	/^var MAINVERSIONLOOSE = R++;$/;"	v
+MAX_LENGTH	node_modules/semver/semver.js	/^var MAX_LENGTH = 256;$/;"	v
+MAX_SAFE_INTEGER	node_modules/semver/semver.js	/^var MAX_SAFE_INTEGER = Number.MAX_SAFE_INTEGER || 9007199254740991;$/;"	v
+Minimatch	node_modules/minimatch/minimatch.js	/^  m.Minimatch = function Minimatch (pattern, options) {$/;"	f
+Minimatch	node_modules/minimatch/minimatch.js	/^}$/;"	c
+Minimatch	node_modules/minimatch/minimatch.js	/^}$/;"	c	class:Minimatch
+Minimatch	node_modules/minimatch/minimatch.js	/^}$/;"	c	class:Minimatch.var
+Minimatch.defaults	node_modules/minimatch/minimatch.js	/^}$/;"	f
+NONNUMERICIDENTIFIER	node_modules/semver/semver.js	/^var NONNUMERICIDENTIFIER = R++;$/;"	v
+NOOP	node_modules/pinkie/index.js	/^var NOOP = function () {};$/;"	f
+NUMERICIDENTIFIER	node_modules/semver/semver.js	/^var NUMERICIDENTIFIER = R++;$/;"	v
+NUMERICIDENTIFIERLOOSE	node_modules/semver/semver.js	/^var NUMERICIDENTIFIERLOOSE = R++;$/;"	v
+PENDING	node_modules/pinkie/index.js	/^var PENDING = 'pending';$/;"	v
+PRERELEASE	node_modules/semver/semver.js	/^var PRERELEASE = R++;$/;"	v
+PRERELEASEIDENTIFIER	node_modules/semver/semver.js	/^var PRERELEASEIDENTIFIER = R++;$/;"	v
+PRERELEASEIDENTIFIERLOOSE	node_modules/semver/semver.js	/^var PRERELEASEIDENTIFIERLOOSE = R++;$/;"	v
+PRERELEASELOOSE	node_modules/semver/semver.js	/^var PRERELEASELOOSE = R++;$/;"	v
+Promise	node_modules/find-up/index.js	/^var Promise = require('pinkie-promise');$/;"	v
+Promise	node_modules/load-json-file/index.js	/^var Promise = require('pinkie-promise');$/;"	v
+Promise	node_modules/path-exists/index.js	/^var Promise = require('pinkie-promise');$/;"	v
+Promise	node_modules/path-type/index.js	/^var Promise = require('pinkie-promise');$/;"	v
+Promise	node_modules/pinkie/index.js	/^function Promise(resolver) {$/;"	c
+Promise.all	node_modules/pinkie/index.js	/^};$/;"	f
+Promise.race	node_modules/pinkie/index.js	/^};$/;"	f
+Promise.reject	node_modules/pinkie/index.js	/^};$/;"	f
+Promise.resolve	node_modules/pinkie/index.js	/^};$/;"	f
+Public.clone	node_modules/merge/merge.js	/^	};$/;"	f
+Public.recursive	node_modules/merge/merge.js	/^	}, publicName = 'merge';$/;"	f
+R	node_modules/semver/semver.js	/^var R = 0;$/;"	v
+REJECTED	node_modules/pinkie/index.js	/^var REJECTED = 'rejected';$/;"	v
+Range	node_modules/semver/semver.js	/^function Range(range, loose) {$/;"	c
+ReadStream	node_modules/graceful-fs/legacy-streams.js	/^  function ReadStream (path, options) {$/;"	c
+ReadStream$open	node_modules/graceful-fs/graceful-fs.js	/^  function ReadStream$open () {$/;"	f	function:function
+SETTLED	node_modules/pinkie/index.js	/^var SETTLED = 'settled';$/;"	v
+STAR	node_modules/semver/semver.js	/^var STAR = R++;$/;"	v
+SUBSTRING	node_modules/spdx-correct/index.js	/^var SUBSTRING = 0;$/;"	v
+SemVer	node_modules/semver/semver.js	/^function SemVer(version, loose) {$/;"	c
+TILDE	node_modules/semver/semver.js	/^var TILDE = R++;$/;"	v
+TILDELOOSE	node_modules/semver/semver.js	/^var TILDELOOSE = R++;$/;"	v
+TILDETRIM	node_modules/semver/semver.js	/^var TILDETRIM = R++;$/;"	v
+TRANSPOSED	node_modules/spdx-correct/index.js	/^var TRANSPOSED = 0;$/;"	v
+WriteStream	node_modules/graceful-fs/graceful-fs.js	/^  function WriteStream (path, options) {$/;"	f	function:function.ReadStream$open
+WriteStream	node_modules/graceful-fs/legacy-streams.js	/^  function WriteStream (path, options) {$/;"	c
+WriteStream$open	node_modules/graceful-fs/graceful-fs.js	/^  function WriteStream$open () {$/;"	f	function:function.ReadStream$open
+XRANGE	node_modules/semver/semver.js	/^var XRANGE = R++;$/;"	v
+XRANGEIDENTIFIER	node_modules/semver/semver.js	/^var XRANGEIDENTIFIER = R++;$/;"	v
+XRANGEIDENTIFIERLOOSE	node_modules/semver/semver.js	/^var XRANGEIDENTIFIERLOOSE = R++;$/;"	v
+XRANGELOOSE	node_modules/semver/semver.js	/^var XRANGELOOSE = R++;$/;"	v
+XRANGEPLAIN	node_modules/semver/semver.js	/^var XRANGEPLAIN = R++;$/;"	v
+XRANGEPLAINLOOSE	node_modules/semver/semver.js	/^var XRANGEPLAINLOOSE = R++;$/;"	v
+\	node_modules/parse-json/vendor/parse.js	/^  '"' : '"',$/;"	p	class:isDecDigit.unescapeMap
+_	node_modules/dateformat/test/test_formats.js	/^var _ = require('underscore');$/;"	v
+_	node_modules/minimist/index.js	/^    var argv = { _ : [] };$/;"	p	class:argv
+_	node_modules/mkdirp/node_modules/minimist/index.js	/^    var argv = { _ : [] };$/;"	p	class:argv
+_0744	node_modules/mkdirp/test/chmod.js	/^var _0744 = parseInt('0744', 8);$/;"	v
+_0755	node_modules/mkdirp/test/chmod.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/clobber.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/mkdirp.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/opts_fs.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/opts_fs_sync.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/perm.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/perm_sync.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/race.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/rel.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/root.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/sync.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/umask.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0755	node_modules/mkdirp/test/umask_sync.js	/^var _0755 = parseInt('0755', 8);$/;"	v
+_0777	node_modules/mkdirp/index.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/chmod.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/mkdirp.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/opts_fs.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/opts_fs_sync.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/perm.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/perm_sync.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/race.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/rel.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/sync.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/umask.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_0777	node_modules/mkdirp/test/umask_sync.js	/^var _0777 = parseInt('0777', 8);$/;"	v
+_data	node_modules/pinkie/index.js	/^	_then: null,$/;"	p	class:Promise
+_fill	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype._fill = function (template, vars) {$/;"	m	class:GitHost
+_handled	node_modules/pinkie/index.js	/^	_data: undefined,$/;"	p	class:Promise
+_state	node_modules/pinkie/index.js	/^	constructor: Promise,$/;"	p	class:Promise
+_then	node_modules/pinkie/index.js	/^	_state: PENDING,$/;"	p	class:Promise
+action	src/model.js	/^    this.action = function(action) {$/;"	m	class:this
+add	src/model.js	/^    this.add = function(data) {$/;"	m	class:this
+addOptionalDepsToDeps	node_modules/normalize-package-data/lib/fixer.js	/^function addOptionalDepsToDeps (data, warn) {$/;"	f
+aliasIsBoolean	node_modules/minimist/index.js	/^    function aliasIsBoolean(key) {$/;"	f
+aliases	node_modules/minimist/index.js	/^    var aliases = {};$/;"	v
+aliases	node_modules/mkdirp/node_modules/minimist/index.js	/^    var aliases = {};$/;"	v
+anyCorrection	node_modules/spdx-correct/index.js	/^var anyCorrection = function(identifier, check) {$/;"	f
+argDefined	node_modules/minimist/index.js	/^    function argDefined(key, arg) {$/;"	f
+argv	node_modules/minimist/example/parse.js	/^var argv = require('..\/')(process.argv.slice(2));$/;"	v
+argv	node_modules/mkdirp/bin/cmd.js	/^var argv = minimist(process.argv.slice(2), {$/;"	v
+argv	node_modules/mkdirp/node_modules/minimist/example/parse.js	/^var argv = require('..\/')(process.argv.slice(2));$/;"	v
+argv	node_modules/strip-indent/cli.js	/^var argv = process.argv.slice(2);$/;"	v
+arrayFindIndex	node_modules/currently-unhandled/core.js	/^var arrayFindIndex = require('array-find-index');$/;"	v
+assert	node_modules/dateformat/test/test_dayofweek.js	/^var assert = require('assert');$/;"	v
+assert	node_modules/dateformat/test/test_formats.js	/^var assert = require('assert');$/;"	v
+assert	node_modules/dateformat/test/test_isoutcdatetime.js	/^var assert = require('assert');$/;"	v
+asyncCall	node_modules/pinkie/index.js	/^function asyncCall(callback, arg) {$/;"	f
+asyncFlush	node_modules/pinkie/index.js	/^function asyncFlush() {$/;"	f
+asyncQueue	node_modules/pinkie/index.js	/^var asyncQueue = [];$/;"	v
+asyncSetTimer	node_modules/pinkie/index.js	/^var asyncSetTimer = typeof setImmediate === 'undefined' ? setTimeout : setImmediate;$/;"	v
+asyncTimer	node_modules/pinkie/index.js	/^var asyncTimer;$/;"	v
+b	node_modules/parse-json/vendor/parse.js	/^  '\\\\': '\\\\',$/;"	p	class:isDecDigit.unescapeMap
+balanced	node_modules/balanced-match/index.js	/^function balanced(a, b, str) {$/;"	f
+balanced	node_modules/brace-expansion/index.js	/^var balanced = require('balanced-match');$/;"	v
+blacklist	node_modules/builtin-modules/index.js	/^var blacklist = [$/;"	v
+bools	node_modules/minimist/index.js	/^    var flags = { bools : {}, strings : {}, unknownFn: null };$/;"	p	class:flags
+bools	node_modules/mkdirp/node_modules/minimist/index.js	/^    var flags = { bools : {}, strings : {} };$/;"	p	class:flags
+browse	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.browse = function () {$/;"	m	class:GitHost
+browsetemplate	node_modules/hosted-git-info/git-host-info.js	/^  'sshurltemplate': 'git+ssh:\/\/git@{domain}\/{user}\/{project}.git{#committish}',$/;"	p	class:gitHostDefaults
+bugs	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.bugs = function () {$/;"	m	class:GitHost
+bugsTypos	node_modules/normalize-package-data/lib/fixer.js	/^function bugsTypos(bugs, warn) {$/;"	f
+builtinModules	node_modules/is-builtin-module/index.js	/^var builtinModules = require('builtin-modules');$/;"	v
+camelCase	node_modules/camelcase-keys/index.js	/^var camelCase = require('camelcase');$/;"	v
+camelcaseKeys	node_modules/meow/index.js	/^var camelcaseKeys = require('camelcase-keys');$/;"	v
+caretTrimReplace	node_modules/semver/semver.js	/^var caretTrimReplace = '$1^';$/;"	v
+chmodFix	node_modules/graceful-fs/polyfills.js	/^function chmodFix (orig) {$/;"	f	function:patchLutimes
+chmodFixSync	node_modules/graceful-fs/polyfills.js	/^function chmodFixSync (orig) {$/;"	f	function:patchLchmod
+chownErOk	node_modules/graceful-fs/polyfills.js	/^function chownErOk (er) {$/;"	f	function:function
+chownFix	node_modules/graceful-fs/polyfills.js	/^function chownFix (orig) {$/;"	f	function:function
+chownFixSync	node_modules/graceful-fs/polyfills.js	/^function chownFixSync (orig) {$/;"	f	function:function
+clean	node_modules/semver/semver.js	/^function clean(version, loose) {$/;"	f
+cleanCache	src/model.js	/^    function cleanCache(data) {$/;"	c	class:Model
+cli	node_modules/dateformat/bin/cli.js	/^var cli = meow({$/;"	v
+cmp	node_modules/semver/semver.js	/^function cmp(a, op, b, loose) {$/;"	f
+commonjsMain	node_modules/spdx-expression-parse/parser.js	/^exports.main = function commonjsMain(args) {$/;"	f
+comparatorTrimReplace	node_modules/semver/semver.js	/^var comparatorTrimReplace = '$1$2$3';$/;"	v
+compare	node_modules/semver/semver.js	/^SemVer.prototype.compare = function(other) {$/;"	m	class:SemVer
+compare	node_modules/semver/semver.js	/^function compare(a, b, loose) {$/;"	f
+compareIdentifiers	node_modules/semver/semver.js	/^function compareIdentifiers(a, b) {$/;"	f
+compareLoose	node_modules/semver/semver.js	/^function compareLoose(a, b) {$/;"	f
+compareMain	node_modules/semver/semver.js	/^SemVer.prototype.compareMain = function(other) {$/;"	m	class:SemVer
+comparePre	node_modules/semver/semver.js	/^SemVer.prototype.comparePre = function(other) {$/;"	m	class:SemVer
+concatMap	node_modules/brace-expansion/index.js	/^var concatMap = require('concat-map');$/;"	v
+concatMap	node_modules/concat-map/example/map.js	/^var concatMap = require('..\/');$/;"	v
+concatMap	node_modules/concat-map/test/map.js	/^var concatMap = require('..\/');$/;"	v
+constructor	node_modules/pinkie/index.js	/^Promise.prototype = {$/;"	p	class:Promise
+core	node_modules/currently-unhandled/browser.js	/^var core = require('.\/core');$/;"	v
+core	node_modules/currently-unhandled/index.js	/^var core = require('.\/core');$/;"	v
+correct	node_modules/validate-npm-package-license/index.js	/^var correct = require('spdx-correct');$/;"	v
+createReadStream	node_modules/graceful-fs/graceful-fs.js	/^  function createReadStream (path, options) {$/;"	f	function:function.ReadStream$open.WriteStream$open
+createWriteStream	node_modules/graceful-fs/graceful-fs.js	/^  function createWriteStream (path, options) {$/;"	f	function:function.ReadStream$open.WriteStream$open
+currentlyUnhandled	node_modules/currently-unhandled/core.js	/^	function currentlyUnhandled() {$/;"	f	function:module.exports
+currentlyUnhandled	node_modules/loud-rejection/api.js	/^var currentlyUnhandled = require('currently-unhandled');$/;"	v
+currentlyUnhandled	node_modules/loud-rejection/index.js	/^var currentlyUnhandled = require('currently-unhandled');$/;"	v
+data	src/model.js	/^    this.data = function(data) {$/;"	m	class:this
+dateFormat	node_modules/dateformat/bin/cli.js	/^var dateFormat = require('..\/lib\/dateformat');$/;"	v
+dateFormat	node_modules/dateformat/test/test_dayofweek.js	/^var dateFormat = require('.\/..\/lib\/dateformat');$/;"	v
+dateFormat	node_modules/dateformat/test/test_formats.js	/^var dateFormat = require('..\/lib\/dateformat');$/;"	v
+dateFormat	node_modules/dateformat/test/test_isoutcdatetime.js	/^var dateFormat = require('.\/..\/lib\/dateformat');$/;"	v
+dateFormat	node_modules/dateformat/test/weekofyear/test_weekofyear.js	/^var dateFormat = require('..\/lib\/dateformat.js');$/;"	v
+dayNames	node_modules/dateformat/lib/dateformat.js	/^  dateFormat.i18n = {$/;"	p	class:dateFormat.i18n
+debug	node_modules/minimatch/minimatch.js	/^Minimatch.prototype.debug = function () {}$/;"	m	class:Minimatch
+debug	node_modules/semver/semver.js	/^\/* nomin *\/ var debug;$/;"	v
+decamelize	node_modules/meow/index.js	/^var decamelize = require('decamelize');$/;"	v
+default	node_modules/dateformat/lib/dateformat.js	/^  dateFormat.masks = {$/;"	p	class:dateFormat.masks
+default	node_modules/dateformat/test/test_formats.js	/^var expects = {$/;"	p	class:expects
+default	src/model.js	/^                    required: false,$/;"	p	class:model.schema
+delete	src/model.js	/^    this.delete = function(idea) {$/;"	m	class:cleanCache
+depObjectify	node_modules/normalize-package-data/lib/fixer.js	/^function depObjectify (deps, type, warn) {$/;"	f	function:addOptionalDepsToDeps
+diff	node_modules/semver/semver.js	/^function diff(version1, version2) {$/;"	f
+docs	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.docs = function () {$/;"	m	class:GitHost
+docstemplate	node_modules/hosted-git-info/git-host-info.js	/^  'browsetemplate': 'https:\/\/{domain}\/{user}\/{project}{\/tree\/committish}',$/;"	p	class:gitHostDefaults
+drop	src/model.js	/^    this.drop = function(callback) {$/;"	m	class:this
+embrace	node_modules/brace-expansion/index.js	/^function embrace(str) {$/;"	f
+enqueue	node_modules/graceful-fs/graceful-fs.js	/^function enqueue (elem) {$/;"	f	function:function
+ensureValidName	node_modules/normalize-package-data/lib/fixer.js	/^function ensureValidName (name, strict, allowLegacyCase) {$/;"	f	function:isCorrectlyEncodedName
+entity	src/model.js	/^    this.entity = function(entity) {$/;"	m	class:cleanCache
+eq	node_modules/semver/semver.js	/^function eq(a, b, loose) {$/;"	f
+errorEx	node_modules/error-ex/index.js	/^var errorEx = function errorEx(name, properties) {$/;"	f
+errorEx	node_modules/parse-json/index.js	/^var errorEx = require('error-ex');$/;"	v
+errorEx.append	node_modules/error-ex/index.js	/^};$/;"	f
+errorEx.line	node_modules/error-ex/index.js	/^};$/;"	f
+errorExError	node_modules/error-ex/index.js	/^	var errorExError = function ErrorEXError(message) {$/;"	c	class:errorEx
+escClose	node_modules/brace-expansion/index.js	/^var escClose = '\\0CLOSE'+Math.random()+'\\0';$/;"	v
+escComma	node_modules/brace-expansion/index.js	/^var escComma = '\\0COMMA'+Math.random()+'\\0';$/;"	v
+escOpen	node_modules/brace-expansion/index.js	/^var escOpen = '\\0OPEN'+Math.random()+'\\0';$/;"	v
+escPeriod	node_modules/brace-expansion/index.js	/^var escPeriod = '\\0PERIOD'+Math.random()+'\\0';$/;"	v
+escSlash	node_modules/brace-expansion/index.js	/^var escSlash = '\\0SLASH'+Math.random()+'\\0';$/;"	v
+escapeBraces	node_modules/brace-expansion/index.js	/^function escapeBraces(str) {$/;"	f
+exec	src/model.js	/^    this.exec = function() {$/;"	m	class:cleanCache
+execWrite	src/datajson.js	/^            var execWrite = function(file, data) {$/;"	f
+exists	node_modules/mkdirp/test/mkdirp.js	/^var exists = fs.exists || path.exists;$/;"	v
+exists	node_modules/mkdirp/test/perm.js	/^var exists = fs.exists || path.exists;$/;"	v
+exists	node_modules/mkdirp/test/perm_sync.js	/^var exists = fs.exists || path.exists;$/;"	v
+exists	node_modules/mkdirp/test/race.js	/^var exists = fs.exists || path.exists;$/;"	v
+exists	node_modules/mkdirp/test/rel.js	/^var exists = fs.exists || path.exists;$/;"	v
+exists	node_modules/mkdirp/test/sync.js	/^var exists = fs.exists || path.exists;$/;"	v
+exists	node_modules/mkdirp/test/umask.js	/^var exists = fs.exists || path.exists;$/;"	v
+exists	node_modules/mkdirp/test/umask_sync.js	/^var exists = fs.exists || path.exists;$/;"	v
+expand	node_modules/brace-expansion/index.js	/^function expand(str, isTop) {$/;"	f
+expandTop	node_modules/brace-expansion/index.js	/^function expandTop(str) {$/;"	f
+expiresHeaderFormat	node_modules/dateformat/lib/dateformat.js	/^    'isoUtcDateTime':        'UTC:yyyy-mm-dd\\'T\\'HH:MM:ss\\'Z\\'',$/;"	p	class:dateFormat.masks
+expiresHeaderFormat	node_modules/dateformat/test/test_formats.js	/^  'isoUtcDateTime':        '',$/;"	p	class:expects
+exports.main	node_modules/spdx-expression-parse/parser.js	/^exports.parse = function () { return spdxparse.parse.apply(spdxparse, arguments); };$/;"	f
+exports.parse	node_modules/spdx-expression-parse/parser.js	/^exports.Parser = spdxparse.Parser;$/;"	f
+ext	node_modules/minimatch/minimatch.js	/^function ext (a, b) {$/;"	f
+f	node_modules/parse-json/vendor/parse.js	/^  'b' : '\\b',$/;"	p	class:isDecDigit.unescapeMap
+fail	node_modules/parse-json/vendor/parse.js	/^  function fail(msg) {$/;"	f	function:parse
+fallback	node_modules/parse-json/index.js	/^var fallback = require('.\/vendor\/parse');$/;"	v
+file	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.file = function (P) {$/;"	m	class:GitHost
+file	node_modules/mkdirp/test/chmod.js	/^var file = ps.join('\/');$/;"	v
+file	node_modules/mkdirp/test/clobber.js	/^var file = ps.join('\/');$/;"	v
+fileExists	node_modules/file-exists-sync/index.js	/^function fileExists(pathToFile) {$/;"	f
+fileReferenceRE	node_modules/validate-npm-package-license/index.js	/^var fileReferenceRE = \/^SEE LICEN[CS]E IN (.+)$\/;$/;"	v
+filetemplate	node_modules/hosted-git-info/git-host-info.js	/^  'httpstemplate': 'git+https:\/\/{auth@}{domain}\/{user}\/{project}.git{#committish}',$/;"	p	class:gitHostDefaults
+filter	node_modules/pify/index.js	/^	var filter = function (key) {$/;"	f	function:var
+filter	src/model.js	/^    this.filter = function(data) {$/;"	m	class:this
+find	src/model.js	/^    this.find = function(query) {$/;"	m	class:cleanCache
+findById	src/model.js	/^    this.findById = function(id) {$/;"	m	class:cleanCache
+findOne	src/model.js	/^    this.findOne = function(query) {$/;"	m	class:cleanCache
+findUp	node_modules/read-pkg-up/index.js	/^var findUp = require('find-up');$/;"	v
+fixer.warn	node_modules/normalize-package-data/lib/normalize.js	/^  }$/;"	f
+fixupUnqualifiedGist	node_modules/hosted-git-info/index.js	/^function fixupUnqualifiedGist (giturl) {$/;"	f
+fn.end	node_modules/trim-newlines/index.js	/^};$/;"	f
+fn.start	node_modules/trim-newlines/index.js	/^};$/;"	f
+format	node_modules/semver/semver.js	/^Range.prototype.format = function() {$/;"	m	class:Range
+format	node_modules/semver/semver.js	/^SemVer.prototype.format = function() {$/;"	m	class:SemVer
+fs	node_modules/load-json-file/index.js	/^var fs = require('graceful-fs');$/;"	v
+fs	node_modules/mkdirp/bin/cmd.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/index.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/chmod.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/clobber.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/mkdirp.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/perm.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/perm_sync.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/race.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/rel.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/return.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/return_sync.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/root.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/sync.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/umask.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/mkdirp/test/umask_sync.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/path-exists/index.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/path-type/index.js	/^var fs = require('graceful-fs');$/;"	v
+fs	node_modules/strip-indent/cli.js	/^var fs = require('fs');$/;"	v
+fs	src/datajson.js	/^var fs = require('fs'),$/;"	v
+fs	src/model.js	/^var fs = require('fs'),$/;"	v
+fs.lchmod	node_modules/graceful-fs/polyfills.js	/^  if (!fs.lchmod) {$/;"	f
+fs.lchmod	node_modules/graceful-fs/polyfills.js	/^function patchLchmod (fs) {$/;"	f	function:function
+fs.lchmodSync	node_modules/graceful-fs/polyfills.js	/^    }$/;"	f
+fs.lchown	node_modules/graceful-fs/polyfills.js	/^  if (!fs.lchown) {$/;"	f
+fs.lchownSync	node_modules/graceful-fs/polyfills.js	/^    }$/;"	f
+fs.lutimes	node_modules/graceful-fs/polyfills.js	/^  if (constants.hasOwnProperty("O_SYMLINK")) {$/;"	f	function:patchLchmod
+fs.lutimes	node_modules/graceful-fs/polyfills.js	/^  } else {$/;"	f
+fs.lutimesSync	node_modules/graceful-fs/polyfills.js	/^    }$/;"	f
+fs_1	node_modules/file-exists-sync/index.js	/^var fs_1 = require('fs');$/;"	v
+fulfill	node_modules/pinkie/index.js	/^function fulfill(promise, value) {$/;"	f
+fullDate	node_modules/dateformat/lib/dateformat.js	/^    'longDate':              'mmmm d, yyyy',$/;"	p	class:dateFormat.masks
+fullDate	node_modules/dateformat/test/test_formats.js	/^  'longDate':              'November 26, 2014',$/;"	p	class:expects
+get	src/model.js	/^    this.get = function(key) {$/;"	m	class:cleanCache
+getAbsolutePaths	node_modules/recursive-readdir/test/recursive-readdir-test.js	/^function getAbsolutePaths(files) {$/;"	f
+getDayOfWeek	node_modules/dateformat/lib/dateformat.js	/^function getDayOfWeek(date) {$/;"	f
+getDefaultRepresentation	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.getDefaultRepresentation = function () {$/;"	m	class:GitHost
+getWeek	node_modules/dateformat/lib/dateformat.js	/^function getWeek(date) {$/;"	f
+git	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.git = function () {$/;"	m	class:GitHost
+git+http:	node_modules/hosted-git-info/index.js	/^  'http:': true,$/;"	p	class:authProtocols
+git+https:	node_modules/hosted-git-info/index.js	/^  'https:': true,$/;"	p	class:authProtocols
+git:	node_modules/hosted-git-info/index.js	/^var authProtocols = {$/;"	p	class:authProtocols
+globUnescape	node_modules/minimatch/minimatch.js	/^function globUnescape (s) {$/;"	f	function:function
+gmt	node_modules/dateformat/bin/cli.js	/^var gmt = cli.input[3] || cli.flags.g || cli.flags.gmt || false;$/;"	v
+gt	node_modules/semver/semver.js	/^function gt(a, b, loose) {$/;"	f
+gte	node_modules/brace-expansion/index.js	/^function gte(i, y) {$/;"	f
+gte	node_modules/semver/semver.js	/^function gte(a, b, loose) {$/;"	f
+gtr	node_modules/semver/semver.js	/^function gtr(version, range, loose) {$/;"	f
+handleThenable	node_modules/pinkie/index.js	/^function handleThenable(promise, value) {$/;"	f
+hasKey	node_modules/minimist/index.js	/^function hasKey (obj, keys) {$/;"	f
+hasKey	node_modules/mkdirp/node_modules/minimist/index.js	/^function hasKey (obj, keys) {$/;"	f
+hash	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.hash = function () {$/;"	m	class:GitHost
+help	node_modules/meow/index.js	/^		opts = {help: opts};$/;"	p	class:opts
+help	node_modules/strip-indent/cli.js	/^function help() {$/;"	f
+http:	node_modules/hosted-git-info/index.js	/^  'git+https:': true,$/;"	p	class:authProtocols
+https	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.https = function () {$/;"	m	class:GitHost
+https:	node_modules/hosted-git-info/index.js	/^  'git:': true,$/;"	p	class:authProtocols
+httpstemplate	node_modules/hosted-git-info/git-host-info.js	/^  'docstemplate': 'https:\/\/{domain}\/{user}\/{project}{\/tree\/committish}#readme',$/;"	p	class:gitHostDefaults
+hyphenReplace	node_modules/semver/semver.js	/^function hyphenReplace($0,$/;"	f
+i	node_modules/merge/merge.min.js	/^;(function(e){function r(e,t){if(s(e)!=="object")return t;for(var n in t){if(s(e[n])==="object"&&s(t[n])==="object"){e[n]=r(e[n],t[n])}else{e[n]=t[n]}}return e}function i(e,n,i){var o=i[0],u=i.length;if(e||s(o)!=="object")o={};for(var a=0;a<u;++a){var f=i[a],l=s(f);if(l!=="object")continue;for(var c in f){var h=e?t.clone(f[c]):f[c];if(n){o[c]=r(o[c],h)}else{o[c]=h}}}return o}function s(e){return{}.toString.call(e).slice(8,-1).toLowerCase()}var t=function(e){return i(e===true,false,arguments)},n="merge";t.recursive=function(e){return i(e===true,true,arguments)};t.clone=function(e){var n=e,r=s(e),i,o;if(r==="array"){n=[];o=e.length;for(i=0;i<o;++i)n[i]=t.clone(e[i])}else if(r==="object"){n={};for(i in e)n[i]=t.clone(e[i])}return n};if(e){module.exports=t}else{window[n]=t}})(typeof module==="object"&&module&&typeof module.exports==="object"&&module.exports);/;"	f	function:function
+identity	node_modules/brace-expansion/index.js	/^function identity(e) {$/;"	f
+inc	node_modules/semver/semver.js	/^SemVer.prototype.inc = function(release, identifier) {$/;"	m	class:SemVer
+inc	node_modules/semver/semver.js	/^function inc(version, release, loose, identifier) {$/;"	f
+indentString	node_modules/redent/index.js	/^var indentString = require('indent-string');$/;"	v
+init	node_modules/strip-indent/cli.js	/^function init(data) {$/;"	f
+input	node_modules/strip-indent/cli.js	/^var input = argv[0];$/;"	v
+installed	node_modules/loud-rejection/index.js	/^var installed = false;$/;"	v
+invokeCallback	node_modules/pinkie/index.js	/^function invokeCallback(subscriber) {$/;"	f
+invokeResolver	node_modules/pinkie/index.js	/^function invokeResolver(resolver, promise) {$/;"	f
+isArrayish	node_modules/error-ex/index.js	/^var isArrayish = require('is-arrayish');$/;"	v
+isArrayish	node_modules/is-arrayish/index.js	/^module.exports = function isArrayish(obj) {$/;"	f
+isCorrectlyEncodedName	node_modules/normalize-package-data/lib/fixer.js	/^function isCorrectlyEncodedName(spec) {$/;"	f
+isFinite	node_modules/repeating/index.js	/^var isFinite = require('is-finite');$/;"	v
+isGitHubShorthand	node_modules/hosted-git-info/index.js	/^function isGitHubShorthand (arg) {$/;"	f
+isNode	node_modules/pinkie/index.js	/^var isNode = typeof global !== 'undefined' && typeof global.process !== 'undefined' && typeof global.process.emit === 'function';$/;"	v
+isNumber	node_modules/minimist/index.js	/^function isNumber (x) {$/;"	f
+isNumber	node_modules/mkdirp/node_modules/minimist/index.js	/^function isNumber (x) {$/;"	f
+isPadded	node_modules/brace-expansion/index.js	/^function isPadded(el) {$/;"	f
+isUtf8	node_modules/strip-bom/index.js	/^var isUtf8 = require('is-utf8');$/;"	v
+isValidScopedPackageName	node_modules/normalize-package-data/lib/fixer.js	/^function isValidScopedPackageName(spec) {$/;"	f
+isX	node_modules/semver/semver.js	/^function isX(id) {$/;"	f
+isoDate	node_modules/dateformat/lib/dateformat.js	/^    'longTime':              'h:MM:ss TT Z',$/;"	p	class:dateFormat.masks
+isoDate	node_modules/dateformat/test/test_formats.js	/^  'longTime':              '1:19:44 PM %TZ_PREFIX%%TZ_OFFSET%',$/;"	p	class:expects
+isoDateTime	node_modules/dateformat/lib/dateformat.js	/^    'isoTime':               'HH:MM:ss',$/;"	p	class:dateFormat.masks
+isoDateTime	node_modules/dateformat/test/test_formats.js	/^  'isoTime':               '13:19:44',$/;"	p	class:expects
+isoTime	node_modules/dateformat/lib/dateformat.js	/^    'isoDate':               'yyyy-mm-dd',$/;"	p	class:dateFormat.masks
+isoTime	node_modules/dateformat/test/test_formats.js	/^  'isoDate':               '2014-11-26',$/;"	p	class:expects
+isoUtcDateTime	node_modules/dateformat/lib/dateformat.js	/^    'isoDateTime':           'yyyy-mm-dd\\'T\\'HH:MM:sso',$/;"	p	class:dateFormat.masks
+isoUtcDateTime	node_modules/dateformat/test/test_formats.js	/^  'isoDateTime':           '2014-11-26T13:19:44%TZ_OFFSET%',$/;"	p	class:expects
+itw	node_modules/mkdirp/test/clobber.js	/^var itw = ps.slice(0, 3).join('\/');$/;"	v
+join	node_modules/find-up/index.js	/^function join(parts, filename) {$/;"	f
+kindOf	node_modules/dateformat/lib/dateformat.js	/^function kindOf(val) {$/;"	f
+lastResorts	node_modules/spdx-correct/index.js	/^var lastResorts = [$/;"	v
+licenseIDs	node_modules/spdx-correct/index.js	/^var licenseIDs = require('spdx-license-ids');$/;"	v
+loadJsonFile	node_modules/read-pkg/index.js	/^var loadJsonFile = require('load-json-file');$/;"	v
+log	src/utils.js	/^    },$/;"	f
+longDate	node_modules/dateformat/lib/dateformat.js	/^    'mediumDate':            'mmm d, yyyy',$/;"	p	class:dateFormat.masks
+longDate	node_modules/dateformat/test/test_formats.js	/^  'mediumDate':            'Nov 26, 2014',$/;"	p	class:expects
+longTime	node_modules/dateformat/lib/dateformat.js	/^    'mediumTime':            'h:MM:ss TT',$/;"	p	class:dateFormat.masks
+longTime	node_modules/dateformat/test/test_formats.js	/^  'mediumTime':            '1:19:44 PM',$/;"	p	class:expects
+longest	node_modules/mkdirp/node_modules/minimist/index.js	/^function longest (xs) {$/;"	f
+loudRejection	node_modules/meow/index.js	/^var loudRejection = require('loud-rejection');$/;"	v
+lt	node_modules/semver/semver.js	/^function lt(a, b, loose) {$/;"	f
+lte	node_modules/brace-expansion/index.js	/^function lte(i, y) {$/;"	f
+lte	node_modules/semver/semver.js	/^function lte(a, b, loose) {$/;"	f
+ltr	node_modules/semver/semver.js	/^function ltr(version, range, loose) {$/;"	f
+m.Minimatch	node_modules/minimatch/minimatch.js	/^  }$/;"	f
+major	node_modules/semver/semver.js	/^function major(a, loose) {$/;"	f
+make	node_modules/minimatch/minimatch.js	/^Minimatch.prototype.make = make$/;"	m	class:Minimatch
+makeRe	node_modules/minimatch/minimatch.js	/^Minimatch.prototype.makeRe = makeRe$/;"	m	class:Minimatch
+mapObj	node_modules/camelcase-keys/index.js	/^var mapObj = require('map-obj');$/;"	v
+mapObj	node_modules/meow/index.js	/^var mapObj = require('map-obj');$/;"	v
+mask	node_modules/dateformat/bin/cli.js	/^var mask = cli.input[1] || cli.flags.m || cli.flags.mask || dateFormat.masks.default;$/;"	v
+match	node_modules/pify/index.js	/^		var match = function (pattern) {$/;"	f	function:var.filter
+maxSatisfying	node_modules/semver/semver.js	/^function maxSatisfying(versions, range, loose) {$/;"	f
+maybeMatch	node_modules/balanced-match/index.js	/^function maybeMatch(reg, str) {$/;"	f
+mediumDate	node_modules/dateformat/lib/dateformat.js	/^    'shortDate':             'm\/d\/yy',$/;"	p	class:dateFormat.masks
+mediumDate	node_modules/dateformat/test/test_formats.js	/^  'shortDate':             '11\/26\/14',$/;"	p	class:expects
+mediumTime	node_modules/dateformat/lib/dateformat.js	/^    'shortTime':             'h:MM TT',$/;"	p	class:dateFormat.masks
+mediumTime	node_modules/dateformat/test/test_formats.js	/^  'shortTime':             '1:19 PM',$/;"	p	class:expects
+meow	node_modules/dateformat/bin/cli.js	/^var meow = require('meow');$/;"	v
+merge	node_modules/merge/merge.js	/^	function merge(clone, recursive, argv) {$/;"	f
+merge_recursive	node_modules/merge/merge.js	/^	function merge_recursive(base, extend) {$/;"	f
+minSatisfying	node_modules/semver/semver.js	/^function minSatisfying(versions, range, loose) {$/;"	f
+minimatch	node_modules/minimatch/minimatch.js	/^function minimatch (p, pattern, options) {$/;"	f
+minimatch	node_modules/minimatch/minimatch.js	/^}$/;"	m	class:Minimatch.var
+minimatch.braceExpand	node_modules/minimatch/minimatch.js	/^}$/;"	f	function:Minimatch.Minimatch
+minimatch.defaults	node_modules/minimatch/minimatch.js	/^}$/;"	f
+minimatch.makeRe	node_modules/minimatch/minimatch.js	/^}$/;"	f
+minimist	node_modules/meow/index.js	/^var minimist = require('minimist');$/;"	v
+minimist	node_modules/mkdirp/bin/cmd.js	/^var minimist = require('minimist');$/;"	v
+minor	node_modules/semver/semver.js	/^function minor(a, loose) {$/;"	f
+mkdirP	node_modules/mkdirp/index.js	/^function mkdirP (p, opts, f, made) {$/;"	f
+mkdirP.sync	node_modules/mkdirp/index.js	/^}$/;"	f
+mkdirp	node_modules/mkdirp/examples/pow.js	/^var mkdirp = require('mkdirp');$/;"	v
+mkdirp	node_modules/mkdirp/test/chmod.js	/^var mkdirp = require('..\/').mkdirp;$/;"	v
+mkdirp	node_modules/mkdirp/test/clobber.js	/^var mkdirp = require('..\/').mkdirp;$/;"	v
+mkdirp	node_modules/mkdirp/test/mkdirp.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/opts_fs.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/opts_fs_sync.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/perm.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/perm_sync.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/race.js	/^var mkdirp = require('..\/').mkdirp;$/;"	v
+mkdirp	node_modules/mkdirp/test/rel.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/return.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/return_sync.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/root.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/sync.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/umask.js	/^var mkdirp = require('..\/');$/;"	v
+mkdirp	node_modules/mkdirp/test/umask_sync.js	/^var mkdirp = require('..\/');$/;"	v
+mockfs	node_modules/mkdirp/test/opts_fs.js	/^var mockfs = require('mock-fs');$/;"	v
+mockfs	node_modules/mkdirp/test/opts_fs_sync.js	/^var mockfs = require('mock-fs');$/;"	v
+mode	node_modules/mkdirp/bin/cmd.js	/^var mode = argv.mode ? parseInt(argv.mode, 8) : undefined;$/;"	v
+mode	node_modules/mkdirp/index.js	/^        opts = { mode: opts };$/;"	p	class:opts
+modifyPeople	node_modules/normalize-package-data/lib/fixer.js	/^function modifyPeople (data, fn) {$/;"	f	function:isCorrectlyEncodedName
+module.exports	node_modules/array-find-index/index.js	/^'use strict';$/;"	f
+module.exports	node_modules/camelcase-keys/index.js	/^var camelCase = require('camelcase');$/;"	f
+module.exports	node_modules/camelcase/index.js	/^}$/;"	f
+module.exports	node_modules/concat-map/index.js	/^module.exports = function (xs, fn) {$/;"	f
+module.exports	node_modules/currently-unhandled/browser.js	/^}$/;"	f
+module.exports	node_modules/currently-unhandled/core.js	/^var arrayFindIndex = require('array-find-index');$/;"	f
+module.exports	node_modules/currently-unhandled/index.js	/^var core = require('.\/core');$/;"	f
+module.exports	node_modules/decamelize/index.js	/^'use strict';$/;"	f
+module.exports	node_modules/find-up/index.js	/^}$/;"	f
+module.exports	node_modules/get-stdin/index.js	/^'use strict';$/;"	f
+module.exports	node_modules/indent-string/index.js	/^var repeating = require('repeating');$/;"	f
+module.exports	node_modules/is-arrayish/index.js	/^'use strict';$/;"	f
+module.exports	node_modules/is-builtin-module/index.js	/^var builtinModules = require('builtin-modules');$/;"	f
+module.exports	node_modules/load-json-file/index.js	/^}$/;"	f
+module.exports	node_modules/loud-rejection/index.js	/^var installed = false;$/;"	f
+module.exports	node_modules/map-obj/index.js	/^'use strict';$/;"	f
+module.exports	node_modules/meow/index.js	/^var parentDir = path.dirname(module.parent.filename);$/;"	f
+module.exports	node_modules/minimist/index.js	/^module.exports = function (args, opts) {$/;"	f
+module.exports	node_modules/mkdirp/node_modules/minimist/index.js	/^module.exports = function (args, opts) {$/;"	f
+module.exports	node_modules/parse-json/index.js	/^});$/;"	f
+module.exports	node_modules/path-exists/index.js	/^var Promise = require('pinkie-promise');$/;"	f
+module.exports	node_modules/read-pkg-up/index.js	/^var readPkg = require('read-pkg');$/;"	f
+module.exports	node_modules/read-pkg/index.js	/^var pathType = require('path-type');$/;"	f
+module.exports	node_modules/redent/index.js	/^var indentString = require('indent-string');$/;"	f
+module.exports	node_modules/repeating/index.js	/^var isFinite = require('is-finite');$/;"	f
+module.exports	node_modules/signal-exit/index.js	/^}$/;"	f
+module.exports	node_modules/spdx-correct/index.js	/^};$/;"	f
+module.exports	node_modules/strip-bom/index.js	/^var isUtf8 = require('is-utf8');$/;"	f
+module.exports	node_modules/strip-indent/index.js	/^'use strict';$/;"	f
+module.exports	node_modules/validate-npm-package-license/index.js	/^}$/;"	f
+module.exports.buffer	node_modules/get-stdin/index.js	/^};$/;"	f
+module.exports.fromUrl	node_modules/hosted-git-info/index.js	/^}$/;"	f
+module.exports.parse	node_modules/parse-json/vendor/parse.js	/^}$/;"	f
+module.exports.sync	node_modules/find-up/index.js	/^};$/;"	f
+module.exports.sync	node_modules/load-json-file/index.js	/^};$/;"	f
+module.exports.sync	node_modules/path-exists/index.js	/^};$/;"	f
+module.exports.sync	node_modules/read-pkg-up/index.js	/^};$/;"	f
+module.exports.sync	node_modules/read-pkg/index.js	/^};$/;"	f
+module.exports.tokenize	node_modules/parse-json/vendor/parse.js	/^}$/;"	f
+n	node_modules/parse-json/vendor/parse.js	/^  'f' : '\\f',$/;"	p	class:isDecDigit.unescapeMap
+neq	node_modules/semver/semver.js	/^function neq(a, b, loose) {$/;"	f
+newline	node_modules/parse-json/vendor/parse.js	/^  function newline(chr) {$/;"	f	function:parse.fail.function
+normalizePackageData	node_modules/meow/index.js	/^var normalizePackageData = require('normalize-package-data');$/;"	v
+normalizePackageData	node_modules/read-pkg/index.js	/^var normalizePackageData = require('normalize-package-data');$/;"	v
+notFlags	node_modules/minimist/index.js	/^    var notFlags = [];$/;"	v
+notFlags	node_modules/mkdirp/node_modules/minimist/index.js	/^    var notFlags = [];$/;"	v
+notifyRejectionHandled	node_modules/pinkie/index.js	/^function notifyRejectionHandled(promise) {$/;"	f
+now	src/datajson.js	/^    var now = function() {$/;"	f	function:module.exports
+numberIsNan	node_modules/is-finite/index.js	/^var numberIsNan = require('number-is-nan');$/;"	v
+numeric	node_modules/brace-expansion/index.js	/^function numeric(str) {$/;"	f
+numeric	node_modules/semver/semver.js	/^var numeric = \/^[0-9]+$\/;$/;"	v
+objectAssign	node_modules/meow/index.js	/^var objectAssign = require('object-assign');$/;"	v
+objectifyDeps	node_modules/normalize-package-data/lib/fixer.js	/^function objectifyDeps (data, warn) {$/;"	f
+onExit	node_modules/loud-rejection/index.js	/^var onExit = require('signal-exit');$/;"	v
+onRejectionHandled	node_modules/currently-unhandled/core.js	/^	function onRejectionHandled(promise) {$/;"	f	function:module.exports
+onUnhandledRejection	node_modules/currently-unhandled/core.js	/^	function onUnhandledRejection(reason, promise) {$/;"	f	function:module.exports
+options._tokenize	node_modules/parse-json/vendor/parse.js	/^  if (options == null) options = {}$/;"	f
+outside	node_modules/semver/semver.js	/^function outside(version, range, hilo, loose) {$/;"	f
+owner	node_modules/pinkie/index.js	/^		var subscriber = {$/;"	p	class:then.subscriber
+p	node_modules/mkdirp/bin/cmd.js	/^    var p = paths.shift();$/;"	v
+pad	node_modules/dateformat/lib/dateformat.js	/^function pad(val, len) {$/;"	f
+pad	node_modules/dateformat/test/test_formats.js	/^function pad(num, size) {$/;"	f
+parentDir	node_modules/meow/index.js	/^var parentDir = path.dirname(module.parent.filename);$/;"	v
+parse	node_modules/load-json-file/index.js	/^function parse(x, fp) {$/;"	f
+parse	node_modules/minimist/test/all_bool.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/bool.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/dash.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/default_bool.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/dotted.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/kv_short.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/long.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/num.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/parse.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/parse_modified.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/short.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/stop_early.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/unknown.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/whitespace.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/mkdirp/node_modules/minimist/test/dash.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/mkdirp/node_modules/minimist/test/default_bool.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/mkdirp/node_modules/minimist/test/dotted.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/mkdirp/node_modules/minimist/test/long.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/mkdirp/node_modules/minimist/test/parse.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/mkdirp/node_modules/minimist/test/parse_modified.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/mkdirp/node_modules/minimist/test/short.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/mkdirp/node_modules/minimist/test/whitespace.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/semver/semver.js	/^Comparator.prototype.parse = function(comp) {$/;"	m	class:Comparator
+parse	node_modules/semver/semver.js	/^function parse(version, loose) {$/;"	f
+parse	node_modules/validate-npm-package-license/index.js	/^var parse = require('spdx-expression-parse');$/;"	v
+parseCommaParts	node_modules/brace-expansion/index.js	/^function parseCommaParts(str) {$/;"	f
+parseComparator	node_modules/semver/semver.js	/^function parseComparator(comp, loose) {$/;"	f
+parseGeneric	node_modules/parse-json/vendor/parse.js	/^  function parseGeneric() {$/;"	f	function:parse.fail.function
+parseGitUrl	node_modules/hosted-git-info/index.js	/^function parseGitUrl (giturl) {$/;"	f
+parseJSON	node_modules/parse-json/vendor/parse.js	/^module.exports.parse = function parseJSON(input, options) {$/;"	f
+parseJson	node_modules/load-json-file/index.js	/^var parseJson = require('parse-json');$/;"	v
+parseKey	node_modules/parse-json/vendor/parse.js	/^  function parseKey() {$/;"	f	function:parse.fail
+parseOffset	node_modules/dateformat/test/test_formats.js	/^function parseOffset(date) {$/;"	f
+parsePerson	node_modules/normalize-package-data/lib/fixer.js	/^function parsePerson (person) {$/;"	f	function:isCorrectlyEncodedName
+parseRange	node_modules/semver/semver.js	/^Range.prototype.parseRange = function(range) {$/;"	m	class:Range
+patch	node_modules/semver/semver.js	/^function patch(a, loose) {$/;"	f
+patchLchmod	node_modules/graceful-fs/polyfills.js	/^function patchLchmod (fs) {$/;"	f	function:function
+patchLutimes	node_modules/graceful-fs/polyfills.js	/^function patchLutimes (fs) {$/;"	f	function:patchLchmod
+path	node_modules/find-up/index.js	/^var path = require('path');$/;"	v
+path	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.path = function () {$/;"	m	class:GitHost
+path	node_modules/load-json-file/index.js	/^var path = require('path');$/;"	v
+path	node_modules/meow/index.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/index.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/chmod.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/clobber.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/mkdirp.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/opts_fs.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/opts_fs_sync.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/perm.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/perm_sync.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/race.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/rel.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/return.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/return_sync.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/root.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/sync.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/umask.js	/^var path = require('path');$/;"	v
+path	node_modules/mkdirp/test/umask_sync.js	/^var path = require('path');$/;"	v
+path	node_modules/read-pkg/index.js	/^var path = require('path');$/;"	v
+pathExists	node_modules/find-up/index.js	/^var pathExists = require('path-exists');$/;"	v
+pathType	node_modules/read-pkg/index.js	/^var pathType = require('path-type');$/;"	v
+pathmatch	node_modules/hosted-git-info/git-host-info.js	/^  'pathtemplate': '{user}\/{project}{#committish}',$/;"	p	class:gitHostDefaults
+paths	node_modules/mkdirp/bin/cmd.js	/^var paths = argv._.slice();$/;"	v
+pathtemplate	node_modules/hosted-git-info/git-host-info.js	/^  'shortcuttemplate': '{type}:{user}\/{project}{#committish}',$/;"	p	class:gitHostDefaults
+pify	node_modules/load-json-file/index.js	/^var pify = require('pify');$/;"	v
+pify	node_modules/path-type/index.js	/^var pify = require('pify');$/;"	v
+pkg	node_modules/strip-indent/cli.js	/^var pkg = require('.\/package.json');$/;"	v
+prerelease	node_modules/semver/semver.js	/^function prerelease(version, loose) {$/;"	f
+preserveCamelCase	node_modules/camelcase/index.js	/^function preserveCamelCase(str) {$/;"	f
+processFn	node_modules/pify/index.js	/^var processFn = function (fn, P, opts) {$/;"	f
+protocolToRepresentation	node_modules/hosted-git-info/index.js	/^function protocolToRepresentation (protocol) {$/;"	f
+ps	node_modules/mkdirp/test/chmod.js	/^var ps = [ '', 'tmp' ];$/;"	v
+ps	node_modules/mkdirp/test/clobber.js	/^var ps = [ '', 'tmp' ];$/;"	v
+publish	node_modules/pinkie/index.js	/^function publish(promise) {$/;"	f
+publishFulfillment	node_modules/pinkie/index.js	/^function publishFulfillment(promise) {$/;"	f
+publishRejection	node_modules/pinkie/index.js	/^function publishRejection(promise) {$/;"	f
+query	src/model.js	/^    this.query = function(query) {$/;"	m	class:cleanCache
+r	node_modules/parse-json/vendor/parse.js	/^  'n' : '\\n',$/;"	p	class:isDecDigit.unescapeMap
+range	node_modules/balanced-match/index.js	/^function range(a, b, str) {$/;"	f
+raw	node_modules/parse-json/vendor/parse.js	/^          var hash = {$/;"	p	class:var.hash
+rcompare	node_modules/semver/semver.js	/^function rcompare(a, b, loose) {$/;"	f
+rcompareIdentifiers	node_modules/semver/semver.js	/^function rcompareIdentifiers(a, b) {$/;"	f
+re	node_modules/semver/semver.js	/^var re = exports.re = [];$/;"	v
+readPkg	node_modules/read-pkg-up/index.js	/^var readPkg = require('read-pkg');$/;"	v
+readPkgUp	node_modules/meow/index.js	/^var readPkgUp = require('read-pkg-up');$/;"	v
+redent	node_modules/meow/index.js	/^var redent = require('redent');$/;"	v
+regExpEscape	node_modules/minimatch/minimatch.js	/^function regExpEscape (s) {$/;"	f	function:function
+reject	node_modules/pinkie/index.js	/^function reject(promise, reason) {$/;"	f
+rejectPromise	node_modules/pinkie/index.js	/^	function rejectPromise(reason) {$/;"	f	function:invokeResolver
+remove	node_modules/signal-exit/index.js	/^  var remove = function () {$/;"	f	function:var
+repeating	node_modules/indent-string/index.js	/^var repeating = require('repeating');$/;"	v
+replaceCaret	node_modules/semver/semver.js	/^function replaceCaret(comp, loose) {$/;"	f
+replaceCarets	node_modules/semver/semver.js	/^function replaceCarets(comp, loose) {$/;"	f
+replaceStars	node_modules/semver/semver.js	/^function replaceStars(comp, loose) {$/;"	f
+replaceTilde	node_modules/semver/semver.js	/^function replaceTilde(comp, loose) {$/;"	f
+replaceTildes	node_modules/semver/semver.js	/^function replaceTildes(comp, loose) {$/;"	f
+replaceXRange	node_modules/semver/semver.js	/^function replaceXRange(comp, loose) {$/;"	f
+replaceXRanges	node_modules/semver/semver.js	/^function replaceXRanges(comp, loose) {$/;"	f
+required	src/model.js	/^                model.schema[key] = {$/;"	p	class:model.schema
+resolve	node_modules/pinkie/index.js	/^function resolve(promise, value) {$/;"	f
+resolvePromise	node_modules/pinkie/index.js	/^	function resolvePromise(value) {$/;"	f	function:invokeResolver
+retry	node_modules/graceful-fs/graceful-fs.js	/^function retry () {$/;"	f	function:function
+return	node_modules/concat-map/index.js	/^var isArray = Array.isArray || function (xs) {$/;"	c
+reviver	node_modules/parse-json/vendor/parse.js	/^    options = {$/;"	p	class:options
+rsort	node_modules/semver/semver.js	/^function rsort(list, loose) {$/;"	f
+s	node_modules/merge/merge.min.js	/^;(function(e){function r(e,t){if(s(e)!=="object")return t;for(var n in t){if(s(e[n])==="object"&&s(t[n])==="object"){e[n]=r(e[n],t[n])}else{e[n]=t[n]}}return e}function i(e,n,i){var o=i[0],u=i.length;if(e||s(o)!=="object")o={};for(var a=0;a<u;++a){var f=i[a],l=s(f);if(l!=="object")continue;for(var c in f){var h=e?t.clone(f[c]):f[c];if(n){o[c]=r(o[c],h)}else{o[c]=h}}}return o}function s(e){return{}.toString.call(e).slice(8,-1).toLowerCase()}var t=function(e){return i(e===true,false,arguments)},n="merge";t.recursive=function(e){return i(e===true,true,arguments)};t.clone=function(e){var n=e,r=s(e),i,o;if(r==="array"){n=[];o=e.length;for(i=0;i<o;++i)n[i]=t.clone(e[i])}else if(r==="object"){n={};for(i in e)n[i]=t.clone(e[i])}return n};if(e){module.exports=t}else{window[n]=t}})(typeof module==="object"&&module&&typeof module.exports==="object"&&module.exports);/;"	f	function:function
+satisfies	node_modules/semver/semver.js	/^function satisfies(version, range, loose) {$/;"	f
+save	src/model.js	/^    this.save = function() {$/;"	m	class:cleanCache
+semver	node_modules/normalize-package-data/lib/fixer.js	/^var semver = require("semver")$/;"	v
+setArg	node_modules/minimist/index.js	/^    function setArg (key, val, arg) {$/;"	f
+setArg	node_modules/mkdirp/node_modules/minimist/index.js	/^    function setArg (key, val) {$/;"	f
+setKey	node_modules/minimist/index.js	/^    function setKey (obj, keys, value) {$/;"	f
+setKey	node_modules/mkdirp/node_modules/minimist/index.js	/^function setKey (obj, keys, value) {$/;"	f
+shortDate	node_modules/dateformat/lib/dateformat.js	/^    'default':               'ddd mmm dd yyyy HH:MM:ss',$/;"	p	class:dateFormat.masks
+shortDate	node_modules/dateformat/test/test_formats.js	/^  'default':               'Wed Nov 26 2014 13:19:44',$/;"	p	class:expects
+shortTime	node_modules/dateformat/lib/dateformat.js	/^    'fullDate':              'dddd, mmmm d, yyyy',$/;"	p	class:dateFormat.masks
+shortTime	node_modules/dateformat/test/test_formats.js	/^  'fullDate':              'Wednesday, November 26, 2014',$/;"	p	class:expects
+shortcut	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.shortcut = function () {$/;"	m	class:GitHost
+shortcuttemplate	node_modules/hosted-git-info/git-host-info.js	/^  'filetemplate': 'https:\/\/{domain}\/{user}\/{project}\/raw\/{committish}\/{path}',$/;"	p	class:gitHostDefaults
+shouldUseNative	node_modules/object-assign/index.js	/^function shouldUseNative() {$/;"	f
+showHelp	node_modules/meow/index.js	/^	var showHelp = function (code) {$/;"	f	function:module.exports
+signals.forEach.exports.signals	node_modules/signal-exit/index.js	/^var sigListeners = {}$/;"	f
+skipComment	node_modules/parse-json/vendor/parse.js	/^  function skipComment(multi) {$/;"	f	function:parse
+skipWhiteSpace	node_modules/parse-json/vendor/parse.js	/^  function skipWhiteSpace() {$/;"	f	function:parse.fail
+sort	node_modules/semver/semver.js	/^function sort(list, loose) {$/;"	f
+splitPath	node_modules/find-up/index.js	/^function splitPath(x) {$/;"	f
+src	node_modules/semver/semver.js	/^var src = exports.src = [];$/;"	v
+ssh	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.ssh = function () {$/;"	m	class:GitHost
+sshtemplate	node_modules/hosted-git-info/git-host-info.js	/^var gitHostDefaults = {$/;"	p	class:gitHostDefaults
+sshurl	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.sshurl = function () {$/;"	m	class:GitHost
+sshurltemplate	node_modules/hosted-git-info/git-host-info.js	/^  'sshtemplate': 'git@{domain}:{user}\/{project}.git{#committish}',$/;"	p	class:gitHostDefaults
+stackDescriptor	node_modules/error-ex/index.js	/^		var stackGetter = stackDescriptor.get;$/;"	m
+startsWith	node_modules/validate-npm-package-license/index.js	/^function startsWith(prefix, string) {$/;"	f
+stdin	node_modules/dateformat/bin/cli.js	/^var stdin = require('get-stdin');$/;"	v
+stdin	node_modules/strip-indent/cli.js	/^var stdin = require('get-stdin');$/;"	v
+strict	node_modules/normalize-package-data/lib/fixer.js	/^    if (typeof options === "boolean") options = {strict: options}$/;"	p
+stripBom	node_modules/load-json-file/index.js	/^var stripBom = require('strip-bom');$/;"	v
+stripIndent	node_modules/redent/index.js	/^var stripIndent = require('strip-indent');$/;"	v
+stripIndent	node_modules/strip-indent/cli.js	/^var stripIndent = require('.\/');$/;"	v
+sync	node_modules/mkdirp/index.js	/^mkdirP.sync = function sync (p, opts, made) {$/;"	f
+t	node_modules/merge/merge.min.js	/^;(function(e){function r(e,t){if(s(e)!=="object")return t;for(var n in t){if(s(e[n])==="object"&&s(t[n])==="object"){e[n]=r(e[n],t[n])}else{e[n]=t[n]}}return e}function i(e,n,i){var o=i[0],u=i.length;if(e||s(o)!=="object")o={};for(var a=0;a<u;++a){var f=i[a],l=s(f);if(l!=="object")continue;for(var c in f){var h=e?t.clone(f[c]):f[c];if(n){o[c]=r(o[c],h)}else{o[c]=h}}}return o}function s(e){return{}.toString.call(e).slice(8,-1).toLowerCase()}var t=function(e){return i(e===true,false,arguments)},n="merge";t.recursive=function(e){return i(e===true,true,arguments)};t.clone=function(e){var n=e,r=s(e),i,o;if(r==="array"){n=[];o=e.length;for(i=0;i<o;++i)n[i]=t.clone(e[i])}else if(r==="object"){n={};for(i in e)n[i]=t.clone(e[i])}return n};if(e){module.exports=t}else{window[n]=t}})(typeof module==="object"&&module&&typeof module.exports==="object"&&module.exports);/;"	f
+t	node_modules/parse-json/vendor/parse.js	/^  'r' : '\\r',$/;"	p	class:isDecDigit.unescapeMap
+t.recursive	node_modules/merge/merge.min.js	/^;(function(e){function r(e,t){if(s(e)!=="object")return t;for(var n in t){if(s(e[n])==="object"&&s(t[n])==="object"){e[n]=r(e[n],t[n])}else{e[n]=t[n]}}return e}function i(e,n,i){var o=i[0],u=i.length;if(e||s(o)!=="object")o={};for(var a=0;a<u;++a){var f=i[a],l=s(f);if(l!=="object")continue;for(var c in f){var h=e?t.clone(f[c]):f[c];if(n){o[c]=r(o[c],h)}else{o[c]=h}}}return o}function s(e){return{}.toString.call(e).slice(8,-1).toLowerCase()}var t=function(e){return i(e===true,false,arguments)},n="merge";t.recursive=function(e){return i(e===true,true,arguments)};t.clone=function(e){var n=e,r=s(e),i,o;if(r==="array"){n=[];o=e.length;for(i=0;i<o;++i)n[i]=t.clone(e[i])}else if(r==="object"){n={};for(i in e)n[i]=t.clone(e[i])}return n};if(e){module.exports=t}else{window[n]=t}})(typeof module==="object"&&module&&typeof module.exports==="object"&&module.exports);/;"	f
+tap	node_modules/normalize-package-data/test/normalize.js	/^var tap = require("tap")$/;"	v
+test	node_modules/concat-map/test/map.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/all_bool.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/bool.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/dash.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/default_bool.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/dotted.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/kv_short.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/long.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/num.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/parse.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/parse_modified.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/short.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/stop_early.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/unknown.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/whitespace.js	/^var test = require('tape');$/;"	v
+test	node_modules/mkdirp/node_modules/minimist/test/dash.js	/^var test = require('tape');$/;"	v
+test	node_modules/mkdirp/node_modules/minimist/test/default_bool.js	/^var test = require('tape');$/;"	v
+test	node_modules/mkdirp/node_modules/minimist/test/dotted.js	/^var test = require('tape');$/;"	v
+test	node_modules/mkdirp/node_modules/minimist/test/long.js	/^var test = require('tape');$/;"	v
+test	node_modules/mkdirp/node_modules/minimist/test/parse.js	/^var test = require('tape');$/;"	v
+test	node_modules/mkdirp/node_modules/minimist/test/parse_modified.js	/^var test = require('tape');$/;"	v
+test	node_modules/mkdirp/node_modules/minimist/test/short.js	/^var test = require('tape');$/;"	v
+test	node_modules/mkdirp/node_modules/minimist/test/whitespace.js	/^var test = require('tape');$/;"	v
+test	node_modules/mkdirp/test/chmod.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/clobber.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/mkdirp.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/opts_fs.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/opts_fs_sync.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/perm.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/perm_sync.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/race.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/rel.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/return.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/return_sync.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/root.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/sync.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/umask.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/mkdirp/test/umask_sync.js	/^var test = require('tap').test;$/;"	v
+test	node_modules/semver/semver.js	/^Comparator.prototype.test = function(version) {$/;"	m	class:Comparator
+test	node_modules/semver/semver.js	/^Range.prototype.test = function(version) {$/;"	m	class:Range
+testSet	node_modules/semver/semver.js	/^function testSet(set, version) {$/;"	f
+then	node_modules/pinkie/index.js	/^			owner: this,$/;"	p	class:then.subscriber
+then	node_modules/pinkie/index.js	/^	_handled: false,$/;"	m	class:Promise
+then	src/model.js	/^    this.then = function(callback) {$/;"	m	class:cleanCache
+tildeTrimReplace	node_modules/semver/semver.js	/^var tildeTrimReplace = '$1~';$/;"	v
+timezoneOffset	node_modules/dateformat/test/test_formats.js	/^function timezoneOffset(date) {$/;"	f
+toComparators	node_modules/semver/semver.js	/^function toComparators(range, loose) {$/;"	f
+toMatcherFunction	node_modules/recursive-readdir/index.js	/^function toMatcherFunction(ignoreEntry) {$/;"	f
+toObject	node_modules/object-assign/index.js	/^function toObject(val) {$/;"	f
+toString	node_modules/concat-map/index.js	/^    return Object.prototype.toString.call(xs) === '[object Array]';$/;"	m	class:return
+toString	node_modules/hosted-git-info/git-host.js	/^GitHost.prototype.toString = function () {$/;"	m	class:GitHost
+toString	node_modules/semver/semver.js	/^Comparator.prototype.toString = function() {$/;"	m	class:Comparator
+toString	node_modules/semver/semver.js	/^Range.prototype.toString = function() {$/;"	m	class:Range
+toString	node_modules/semver/semver.js	/^SemVer.prototype.toString = function() {$/;"	m	class:SemVer
+tokenEnd	node_modules/parse-json/vendor/parse.js	/^      }$/;"	f
+tokenEnd	node_modules/parse-json/vendor/parse.js	/^  var tokenEnd = function(v) {return v}$/;"	f	function:function.parse
+tokenizeJSON	node_modules/parse-json/vendor/parse.js	/^module.exports.tokenize = function tokenizeJSON(input, options) {$/;"	f
+transpositions	node_modules/spdx-correct/index.js	/^var transpositions = [$/;"	v
+trimNewlines	node_modules/meow/index.js	/^var trimNewlines = require('trim-newlines');$/;"	v
+type	node_modules/normalize-package-data/lib/fixer.js	/^      data.repository = {$/;"	p	class:data.repository
+type	node_modules/path-type/index.js	/^function type(fn, fn2, fp) {$/;"	f
+type	src/model.js	/^                    default: undefined,$/;"	p	class:model.schema
+typeOf	node_modules/merge/merge.js	/^	function typeOf(input) {$/;"	f
+typeSync	node_modules/path-type/index.js	/^function typeSync(fn, fn2, fp) {$/;"	f
+ucFirst	node_modules/normalize-package-data/lib/normalize.js	/^function ucFirst (string) {$/;"	f	function:function
+unParsePerson	node_modules/normalize-package-data/lib/fixer.js	/^function unParsePerson (person) {$/;"	f	function:isCorrectlyEncodedName
+unescapeBraces	node_modules/brace-expansion/index.js	/^function unescapeBraces(str) {$/;"	f
+unwrapEvent	node_modules/currently-unhandled/browser.js	/^function unwrapEvent(event) {$/;"	f
+update	src/model.js	/^    this.update = function(data) {$/;"	m	class:this
+updateById	src/model.js	/^    this.updateById = function(id, data) {$/;"	m	class:this
+url	node_modules/normalize-package-data/lib/fixer.js	/^        data.bugs = {url: hosted.bugs()}$/;"	p	class:data.bugs
+url	node_modules/normalize-package-data/lib/fixer.js	/^        type: "git",$/;"	p	class:data.repository
+usesLicenseRef	node_modules/validate-npm-package-license/index.js	/^function usesLicenseRef(ast) {$/;"	f
+utc	node_modules/dateformat/bin/cli.js	/^var utc = cli.input[2] || cli.flags.u || cli.flags.utc || false;$/;"	v
+util	node_modules/error-ex/index.js	/^var util = require('util');$/;"	v
+util	node_modules/loud-rejection/api.js	/^var util = require('util');$/;"	v
+util	node_modules/loud-rejection/index.js	/^var util = require('util');$/;"	v
+v	node_modules/parse-json/vendor/parse.js	/^  't' : '\\t',$/;"	p	class:isDecDigit.unescapeMap
+val	node_modules/dateformat/test/weekofyear/test_weekofyear.js	/^var val = process.argv[2] || new Date();$/;"	v
+valid	node_modules/semver/semver.js	/^function valid(version, loose) {$/;"	f
+valid	node_modules/spdx-correct/index.js	/^function valid(string) {$/;"	f
+validForNewPackages	node_modules/validate-npm-package-license/index.js	/^        validForOldPackages: false,$/;"	p	class:var.result
+validForOldPackages	node_modules/validate-npm-package-license/index.js	/^      var result = {$/;"	p	class:var.result
+validLastResort	node_modules/spdx-correct/index.js	/^var validLastResort = function(identifier) {$/;"	f
+validRange	node_modules/semver/semver.js	/^function validRange(range, loose) {$/;"	f
+validTransformation	node_modules/spdx-correct/index.js	/^var validTransformation = function(identifier) {$/;"	f
+warnings	node_modules/validate-npm-package-license/index.js	/^        validForNewPackages: false,$/;"	p	class:var.result
+xs	node_modules/concat-map/example/map.js	/^var xs = [ 1, 2, 3, 4, 5, 6 ];$/;"	v
+ys	node_modules/concat-map/example/map.js	/^var ys = concatMap(xs, function (x) {$/;"	v

@@ -1,36 +1,13 @@
 var path = require('path')
-var model = require('./src/model')
-
-var profile = new model({
-    name: 'profile',
-    schema: {
-        name: {
-            required: true,
-            type: String
-        },
-        description: String,
-        active: {
-            default: false,
-            type: Boolean
-        },
-        categorie: {
-            default: 'dev',
-            type: String
-        },
-        birth: {
-            required: true,
-            type: Date
-        },
-        age: Number,
-        dog: Number
-    }
-}, {
-    'path': 'data',
+var model = require('../src/datajson')({
+    'path': path.resolve(__dirname, 'data'),
     'indenting': 4,
-    'ext': '.json'
-})
+    'ext': '.json',
+    'modelPath': path.resolve(__dirname, 'model')
+}).model
 
-profile.drop((result) => {
+
+model.profile.drop((result) => {
     /**
      * Insert
      */

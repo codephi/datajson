@@ -33,6 +33,6 @@
     "recursive-readdir": "^2.0.0"
   },
   "scripts":{
-    "test" : "node test.js"
+    "test" : "node example/test.js"
   }
 }

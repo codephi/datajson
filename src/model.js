@@ -5,23 +5,41 @@ var fs = require('fs'),
     merge = require('merge'),
     readdir = require('recursive-readdir'),
     exists = require('file-exists-sync').default,
-    dataJson = require('./datajson');
+    worker = require('./worker');
 
 
-var Model = function(model, config) {
-    var cache, defaultCache = merge(true, {
-        'path': __dirname,
-        'indenting': 4,
-        'ext': '.json'
-    }, config);
+var Model = function(model) {
+    var cache, config;
 
-    cache = defaultCache;
-    cache.table = model.name + cache.ext
-    cache.file = path.resolve(cache.path, cache.table)
-    cache.data = null;
-    cache.result = null;
-    cache.id = null;
-    cache.entity = config.entity || null;
+    this.init = function(_config) {
+        config = _config
+        cache = config
+        cache.table = model.name + config.ext
+        cache.file = path.resolve(config.path, config.table)
+        cache.data = null;
+        cache.result = null;
+        cache.id = null;
+        cache.entity = config.entity || null;
+
+        if (!config.entity) {
+            for (var key in model.schema) {
+                if (typeof model.schema[key] != 'object') {
+                    model.schema[key] = {
+                        required: false,
+                        default: undefined,
+                        type: model.schema[key]
+                    }
+                } else {
+                    model.schema[key].type = model.schema[key].type ? model.schema[key].type : String
+                }
+
+            }
+        } else {
+            cache.id = config.entity.id;
+        }
+
+        return this;
+    }
 
     function cleanCache(data) {
         cache.data = null;
@@ -49,25 +67,9 @@ var Model = function(model, config) {
         return data;
     }
 
-    if (!config.entity) {
-        for (var key in model.schema) {
-            if (typeof model.schema[key] != 'object') {
-                model.schema[key] = {
-                    required: false,
-                    default: undefined,
-                    type: model.schema[key]
-                }
-            } else {
-                model.schema[key].type = model.schema[key].type ? model.schema[key].type : String
-            }
-
-        }
-    }
-    else{
-      cache.id = config.entity.id;
-    }
-
     this.schema = model.schema;
+
+    this.name = model.name;
 
     this.data = function(data) {
         if (data !== undefined) {
@@ -186,12 +188,17 @@ var Model = function(model, config) {
         return this;
     }
 
-    this.delete = function(idea) {
+    this.delete = function(id) {
         this.action('delete');
-        this.data({
+        this.query({
             id
         });
         return this;
+    }
+
+    this.all = function() {
+        var db = new worker(cache)
+        return db.getAll(cache.file)
     }
 
     this.find = function(query) {
@@ -215,28 +222,26 @@ var Model = function(model, config) {
     }
 
     function Entity(data) {
-        if (!data || !data.id) {
-            return data;
-        }
-
-        var entity = new Model(model, merge(true, config, {
+        var entity = (new Model(model)).init(merge(true, config, {
             entity: data
-        }));
+        }))
 
-        var id = data.id;
-        delete data.id;
+        if (data.id) {
+            var id = data.id;
+            delete data.id;
 
-        entity.query({
-            id
-        });
+            entity.query({
+                id
+            });
+        }
 
         return entity;
     }
 
     this.exec = function() {
-        var dj = new dataJson(cache)
+        var db = new worker(cache)
         if (cache.action == 'findById') {
-            var result = dj.row(cache.file, cache.query.id);
+            var result = db.getRow(cache.file, cache.query.id);
 
             cleanCache({
                 result: result,
@@ -245,29 +250,17 @@ var Model = function(model, config) {
 
             return new Entity(result);
         } else if (cache.action == 'find' || cache.action == 'findOne') {
-            var result = dj.find(cache.file, cache.query);
+            var result = db.find(cache.file, cache.query);
 
             if (cache.action == 'findOne') {
                 result = result[0] || null;
-
-                if (result) {
-                    cleanCache({
-                        result: result
-                    });
-
-                    return new Entity(result);
-                } else {
-                    return null;
-                }
             }
 
-            if (result) {
-                cleanCache({
-                    result: result
-                });
-            }
+            cleanCache({
+                result: result
+            });
 
-            return result;
+            return (cache.action == 'findOne') ? new Entity(result) : result;
         }
     }
 
@@ -280,23 +273,32 @@ var Model = function(model, config) {
     }
 
     /**
-     * Only Update, Insert;
+     * Only Update, Insert, Delete;
      */
     this.save = function() {
-        var dj = new dataJson(cache)
+        var db = new worker(cache)
+
+        if (cache.action == "delete") {
+            var result = db.delete(cache.file, cache.query.id)
+            cleanCache({
+                result: result
+            });
+
+            return result;
+        }
 
         this.filter();
 
         if (cache.data) {
             if (cache.action == 'update' && cache.query != null) {
-                var result = dj.update(cache.file, cache.query, cache.data)
+                var result = db.update(cache.file, cache.query, cache.data)
                 cleanCache({
                     result: result
                 });
 
                 return new Entity(result)
             } else if (!config.entity && cache.action == 'insert') {
-                if (result = dj.insert(cache.file, cache.data)) {
+                if (result = db.insert(cache.file, cache.data)) {
                     cleanCache({
                         result: result
                     });
