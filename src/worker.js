@@ -99,8 +99,8 @@ module.exports = function(options) {
         },
 
         prepare = function(result) {
-            return result.filter(function(value){
-              return (value.id)
+            return result.filter(function(value) {
+                return (value.id)
             })
         },
 
@@ -271,8 +271,10 @@ module.exports = function(options) {
 
                 if (!(value instanceof RegExp) && typeof value == 'object') {
                     var objKey = Object.keys(value)[0];
-                    console.log(line, value, term)
-                    if (operators[objKey](line[term], value[objKey])) {
+
+                    if (!operators[objKey]) {
+                        console.error("Operator " + objKey + " is invalid.")
+                    } else if (operators[objKey](line[term], value[objKey])) {
                         count++
                     }
                 } else {
@@ -339,10 +341,10 @@ module.exports = function(options) {
             return key ? clear(table[key]) : null
         },
 
-        getAll = function(file){
-          var table = read(file)
-          console.log(file)
-          return prepare(table);
+        getAll = function(file) {
+            var table = read(file)
+            console.log(file)
+            return prepare(table);
         }
 
 
