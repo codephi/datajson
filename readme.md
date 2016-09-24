@@ -8,8 +8,11 @@ Its structure is inspired by the Mongoose ODM. Using similar resources to handle
 
 ```javascript
   var datajson = require('datajson')({
-    'path' : 'data'
+    'path' : '/path/app/data',
+    'modelPath' : '/path/app/model'
   });
+
+  var model = datajson.model; // all model load
 ```
 
 The setting options are Json Date:
@@ -54,3 +57,68 @@ module.exports = function(Model){
 ```
 
 From the model you can manipulate your bank as an MDG
+
+## Methods
+These are the methods of model
+
+ - **add** : Inserts a new line.
+ - **update** : Updates values of one or more lines
+ - **remove** : Removes a specific line
+ - **find** : Search and returns values
+ - **findOne** : Search and returns the first value found
+ - **findOne** : Search and returns the first value found
+ - **findById** : Search for a specific id
+ - **query** : Defines a query
+ - **date** : Sets past values for a line
+ - **drop** : Completely removes a file
+ - **save** : Concludes the methods add, update and remove returns a registered entity and ready for use
+ - **exec** : Executes methods find's, return entity or object list
+ - **then** : Used to set a callback to treatment result of the action.
+
+## Query
+### Logical operators
+
+And, Or and Not
+
+### Comparison
+
+- **$eq** : Matches values that are equal to a specified value.
+- **$gt** : Matches values that are greater than a specified value.
+- **$gte** : Matches values that are greater than or equal to a specified value.
+- **$lt** : Matches values that are less than a specified value.
+- **$lte** : Matches values that are less than or equal to a specified value.
+- **$in** : Matches any of the values specified in an array.
+- **$nin** : Matches none of the values specified in an array.
+
+## Using queries
+
+The query can be applied in the search methods, or by adding query method.
+
+```javascript
+model.profile.find({"age" : { "$gt" : 18 } })
+```
+
+In this example we get the data from all major profiles 18 years of age.
+If we want to get over 18 or disabled the profile would be like this:
+
+```javascript
+model.profile.find({
+  "$or" : { "age" : { "$gt" : 18 }, "active" : false }
+})
+```
+
+### A more complex search:
+Let's find users with the name or Philippe Martin, aged less than or equal to 20 years and above 15 years. For this we will use the names regex
+
+```javascript
+model.profile.find({
+  "$or" : [
+    {"name" : /philippe/gi},
+    {"name" : /martin/gi}
+  ],
+  "$and" : [
+    {"age" : { "$eq": 15 }},
+    {"age" : { "$lte": 20 }}
+  ]
+})
+```

@@ -252,7 +252,7 @@ module.exports = function(options) {
                 return (typeof value == 'number' && target <= value);
             },
             // Corresponde a qualquer valor de uma matriz
-            "$em": function(target, value) {
+            "$in": function(target, value) {
                 return (typeof value == 'object' && value.indexOf(target) > -1);
             },
             // Não corresponde nenhum valor de uma matriz
