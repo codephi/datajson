@@ -108,7 +108,7 @@ model.profile.find({
 ```
 
 ### A more complex search:
-Let's find users with the name or Philippe Martin, aged less than or equal to 20 years and above 15 years. For this we will use the names regex
+Let's find users with the name Philippe or Martin, age less than or equal to 20 years and above 15 years. For this we will use the names regex
 
 ```javascript
 model.profile.find({
