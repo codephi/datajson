@@ -343,7 +343,6 @@ module.exports = function(options) {
 
         getAll = function(file) {
             var table = read(file)
-            console.log(file)
             return prepare(table);
         }
 
