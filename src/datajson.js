@@ -1,15 +1,17 @@
 var Model = require('./model'),
     merge = require('merge'),
     fs = require('fs'),
-    path = require('path')
-
-module.exports = function(config) {
-    var config = merge(true, {
+    path = require('path'),
+    defaultConfig = {
         'path': __dirname,
         'indenting': null,
         'modelPath': null,
         'ext': '.json'
-    }, config);
+    }
+
+module.exports = function(custom) {
+    var config = merge(true, defaultConfig, custom);
+
 
     this.model = {};
 
@@ -22,8 +24,12 @@ module.exports = function(config) {
         this.files = files;
         var models = {}
 
+        /*
+          Bug 1 https://github.com/PhilippeAssis/datajson#bug1
+        */
+
         files.map(function(file) {
-            var model = require(path.resolve(modelPath, file))(Model).init(config)
+            var model = require(path.resolve(modelPath, file))(Model).init(merge(true, defaultConfig, custom))
             models[model.name] = model;
         })
 

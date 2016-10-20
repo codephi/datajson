@@ -122,3 +122,22 @@ model.profile.find({
   ]
 })
 ```
+
+## Known bugs
+
+### Bug 1
+In line 32 of /src/datajson.js you will find this:
+
+```javascript
+      var model = require(path.resolve(modelPath, file))(Model).init(merge(true, defaultConfig, config))
+})
+```
+But it should be like this:
+```javascript
+      var model = require(path.resolve(modelPath, file))(Model).init(config)
+})
+```
+
+It happens that when passing the value to the variable 'config' for some reason for me unknown variable is populated by several values which are the Model properties.
+The only solution I found was to pass again the merge function, so the config is not changed.
+Surely this is happening for some stupid of me. So if you know a solution, be sure to contribute
