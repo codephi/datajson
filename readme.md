@@ -63,7 +63,7 @@ These are the methods of model
 
  - **add** : Inserts a new line.
  - **update** : Updates values of one or more lines
- - **remove** : Removes a specific line
+ - **delete** : Delete a specific line
  - **find** : Search and returns values
  - **findOne** : Search and returns the first value found
  - **findOne** : Search and returns the first value found
