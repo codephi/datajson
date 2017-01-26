@@ -1,6 +1,6 @@
 {
   "name": "datajson",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Low-Level Data Manager in json file",
   "main": "src/datajson.js",
   "repository": {
