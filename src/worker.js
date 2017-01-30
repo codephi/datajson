@@ -2,7 +2,6 @@ var fs = require('fs'),
     path = require('path'),
     dateFormat = require('dateformat'),
     exec = require('exec'),
-    mkdirp = require('mkdirp'),
     merge = require('merge'),
     exists = require('file-exists-sync').default,
     readdir = require('recursive-readdir');
