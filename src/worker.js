@@ -72,7 +72,7 @@ module.exports = function(options) {
                     }
                     else {
                         fs.chmod(filePath, mode, function() {
-                            finish = execWrite(file, data);
+                            write(file, modeOrData, data)
                         })
                     }
                 });
