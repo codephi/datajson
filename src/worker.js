@@ -1,6 +1,7 @@
 var fs = require('fs'),
     path = require('path'),
     dateFormat = require('dateformat'),
+    exec = require('exec'),
     mkdirp = require('mkdirp'),
     merge = require('merge'),
     exists = require('file-exists-sync').default,
@@ -54,7 +55,7 @@ module.exports = function(options) {
 
         write = function(file, modeOrData, data) {
             var mode = typeof modeOrData == 'int' ? modeOrData : '0777';
-            var data = typeof modeOrData == 'object' ? modeOrData : typeof dataOrCallbacl == 'object' ? dataOrCallbacl : {};
+            var data = typeof modeOrData == 'object' ? modeOrData : data;
             //fix path and file
             var filePath = fixPath(path.dirname(file));
             file = fixPath(file, true);
@@ -66,10 +67,11 @@ module.exports = function(options) {
 
             if (filePath && !exists(filePath)) {
                 var finish = false
-                mkdirp(filePath, function(err) {
+                exec(['mkdir', '-p', filePath], function(err) {
                     if (err) {
                         logError(err);
-                    } else {
+                    }
+                    else {
                         fs.chmod(filePath, mode, function() {
                             finish = execWrite(file, data);
                         })
@@ -79,7 +81,8 @@ module.exports = function(options) {
                 while (!finish);
 
                 return finish;
-            } else {
+            }
+            else {
                 return execWrite(file, data);
             }
 
@@ -115,7 +118,8 @@ module.exports = function(options) {
 
             if (!table) {
                 table = createTable(row);
-            } else {
+            }
+            else {
                 table[table.length] = row;
                 table[0].lastid = ++table[0].lastid;
             }
@@ -137,7 +141,8 @@ module.exports = function(options) {
                 table[key] = merge.recursive(true, table[key], data);
 
                 return write(file, table) ? clear(table[key]) : null;
-            } else {
+            }
+            else {
                 var result = find(file, query).map(function(value) {
                     var key = getKey(table, value.id);
 
@@ -199,9 +204,11 @@ module.exports = function(options) {
                     '$and': Array.isArray(terms) ? terms : [terms],
                     '$or': []
                 };
-            } else if (!terms['$and']) {
+            }
+            else if (!terms['$and']) {
                 terms['$and'] = [];
-            } else if (!terms['$or']) {
+            }
+            else if (!terms['$or']) {
                 terms['$or'] = [];
             }
 
@@ -223,7 +230,8 @@ module.exports = function(options) {
                     if (target.search(value) > -1) {
                         return true;
                     }
-                } else {
+                }
+                else {
                     if (target == value) {
                         return true;
                     }
@@ -274,10 +282,12 @@ module.exports = function(options) {
 
                     if (!operators[objKey]) {
                         console.error("Operator " + objKey + " is invalid.")
-                    } else if (operators[objKey](line[term], value[objKey])) {
+                    }
+                    else if (operators[objKey](line[term], value[objKey])) {
                         count++
                     }
-                } else {
+                }
+                else {
                     if (operators['$eq'](line[term], value)) {
                         count++
                     }
@@ -307,7 +317,8 @@ module.exports = function(options) {
 
                         if (findItemInLine(line, item, true)) {
                             count++;
-                        } else {
+                        }
+                        else {
                             count = 0;
                             break
                         }

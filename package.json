@@ -27,12 +27,13 @@
   "homepage": "https://github.com/PhilippeAssis/datafiles#readme",
   "dependencies": {
     "dateformat": "^1.0.12",
+    "exec": "^0.2.1",
     "file-exists-sync": "^1.0.1",
     "merge": "^1.2.0",
     "mkdirp": "^0.5.1",
     "recursive-readdir": "^2.0.0"
   },
-  "scripts":{
-    "test" : "node example/test.js"
+  "scripts": {
+    "test": "node example/test.js"
   }
 }

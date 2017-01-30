@@ -12,7 +12,6 @@ var Model = require('./model'),
 module.exports = function(custom) {
     var config = merge(true, defaultConfig, custom);
 
-
     this.model = {};
 
     this.Model = function(schema) {
